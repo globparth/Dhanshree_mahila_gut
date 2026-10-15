@@ -1,0 +1,10 @@
+# robots.txt — Dhanashree Mahila Gramin Bigarsheti Sahakari Patsanstha Ltd.
+User-agent: *
+Allow: /
+
+# Keep crawlers out of non-public folders if you add them later
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+
+Sitemap: https://www.dhanashreemahila.com/sitemap.xml
