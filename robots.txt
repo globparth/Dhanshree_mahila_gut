@@ -1,4 +1,4 @@
-# robots.txt — Dhanashree Mahila Gramin Bigarsheti Sahakari Patsanstha Ltd.
+# robots.txt — Dhanashri Mahila Gramin Bigarsheti Sahakari Patsanstha Ltd.
 User-agent: *
 Allow: /
 Disallow: /404.html
