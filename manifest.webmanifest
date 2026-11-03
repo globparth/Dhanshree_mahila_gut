@@ -1,0 +1,23 @@
+{
+ "name": "Dhanashree Mahila Gramin Bigarsheti Sahakari Patsanstha Ltd.",
+ "short_name": "Dhanashree Mahila",
+ "lang": "mr",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#f7f4ee",
+ "theme_color": "#3a1446",
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  }
+ ]
+}
