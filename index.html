@@ -776,6 +776,24 @@ html[lang="mr"] .sf-row b{font-family:var(--head);font-size:52px}
 @media(max-width:900px){.soc-feature{grid-template-columns:1fr;height:auto}.sf-main{min-height:480px}.sf-side{grid-template-rows:none;grid-template-columns:1fr 1fr}.sf-tile{min-height:240px}}
 @media(max-width:560px){.sf-side{grid-template-columns:1fr}.sf-tile{min-height:220px}.sf-tx{padding:22px}.sf-row b{font-size:44px}}
 
+/* founder */
+.founder-sec{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.founder-sec + .sec{padding-top:100px}
+.founder{display:grid;grid-template-columns:.8fr 1.2fr;gap:72px;align-items:center}
+.fd-photo{position:relative;max-width:440px;width:100%;justify-self:center}
+.fd-frame{position:relative;aspect-ratio:4/5;border-radius:16px;overflow:hidden;background:#0b0b0b;box-shadow:0 0 0 1px rgba(201,164,92,.45),0 0 0 12px color-mix(in srgb,var(--gold) 10%,transparent),var(--shadow)}
+.fd-frame img{width:100%;height:100%;object-fit:cover;object-position:top}
+.fd-badge{position:absolute;left:50%;bottom:-16px;transform:translateX(-50%);background:var(--goldgrad);color:#2a1d05;font-weight:700;font-size:14px;padding:8px 22px;border-radius:999px;box-shadow:0 10px 24px -10px rgba(0,0,0,.5);white-space:nowrap}
+.founder p{color:var(--muted);font-size:17px;margin:0 0 24px}
+.fd-roles{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 22px}
+.fd-roles > span{background:var(--surface-2);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:14px}
+.fd-hon{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.fd-hon li{border-left:3px solid var(--gold-2);padding:6px 0 6px 14px}
+.fd-hon b{display:block;font-family:var(--head);font-size:18px;line-height:1.3}
+.fd-hon li > span{font-size:13px;color:var(--muted)}
+@media(max-width:900px){.founder{grid-template-columns:1fr;gap:48px}.fd-photo{max-width:340px}}
+@media(max-width:480px){.fd-hon{grid-template-columns:1fr}}
+
 :root{--navy:#3a1446;--navy-2:#4d1d5c;--navy-3:#220a2b}.slide::after{background:linear-gradient(90deg,rgba(28,8,36,.9) 0%,rgba(28,8,36,.62) 48%,rgba(28,8,36,.15) 100%),linear-gradient(0deg,rgba(28,8,36,.7),transparent 45%)}.banner::after{background:linear-gradient(90deg,rgba(28,8,36,.92),rgba(28,8,36,.55))}.cta::after{background:linear-gradient(90deg,rgba(28,8,36,.95),rgba(28,8,36,.7))}
 </style>
 </head>
@@ -935,7 +953,19 @@ html[lang="mr"] .sf-row b{font-family:var(--head);font-size:52px}
     </div>
   </div>
 
-  <section class="sec" style="padding-top:100px">
+  <section class="sec founder-sec">
+    <div class="wrap founder">
+      <div class="fd-photo rv"><div class="fd-frame"><img src="images/shivajirao-kalunge.jpg" alt="मा. प्रा. श्री. शिवाजीराव बाजीराव काळुंगे" loading="lazy"></div><span class="fd-badge"><span class="mr">संस्थापक</span><span class="en">Founder</span></span></div>
+      <div>
+        <div class="kicker rv"><span class="mr">संस्थापक · धनश्री परिवार</span><span class="en">Founder · The Dhanashree family</span></div>
+        <h2 class="title rv d1"><span class="mr">मा. प्रा. श्री. शिवाजीराव <em>बाजीराव काळुंगे (सर)</em></span><span class="en">Prof. Shri Shivajirao <em>Bajirao Kalunge (Sir)</em></span></h2>
+        <div class="fd-roles rv d1"><span><span class="mr">संस्थापक, धनश्री परिवार</span><span class="en">Founder, Dhanashree family</span></span><span><span class="mr">चेअरमन, धनश्री मल्टीस्टेट</span><span class="en">Chairman, Dhanashree Multistate</span></span><span><span class="mr">चेअरमन, श्री सद्गुरू सितराम महाराज अर्बन</span><span class="en">Chairman, Sitaram Maharaj Urban</span></span></div>
+        <p class="rv d2"><span class="mr">परिसरातील लोकांचे जीवनमान सुधारायचे असेल तर शेतीला पाणी आणि उत्पन्न काढायला पैसा — या दोन गोष्टींची गरज आहे, हे जाणून प्रा. शिवाजीराव काळुंगे सर यांनी धनश्री परिवाराची उभारणी केली. आज धनश्री मल्टीस्टेट, धनश्री महिला पतसंस्था आणि सितराम महाराज अर्बन यांच्या माध्यमातून हजारो कुटुंबांना आर्थिक आधार मिळत आहे.</span><span class="en">Knowing that lives in our region needed two things — water for the fields and capital to make them productive — Prof. Shivajirao Kalunge Sir built the Dhanashree family. Today Dhanashree Multistate, Dhanashree Mahila Patsanstha and Sitaram Maharaj Urban support thousands of families.</span></p>
+        <ul class="fd-hon rv d3"><li><b><span class="mr">द पॉवर ऑफ सोलापूर २०२५</span><span class="en">The Power of Solapur 2025</span></b><span><span class="mr">पुण्य नगरी</span><span class="en">Punya Nagari</span></span></li><li><b><span class="mr">गौरव भूमिपुत्राचा २०२५</span><span class="en">Gaurav Bhumiputracha 2025</span></b><span><span class="mr">दैनिक सकाळ</span><span class="en">Dainik Sakal</span></span></li></ul>
+      </div>
+    </div>
+  </section>
+  <section class="sec" style="padding-top:0">
     <div class="wrap">
       <div class="center">
         <div class="kicker rv"><span class="mr">सन्मान व पुरस्कार</span><span class="en">Awards &amp; honours</span></div>
